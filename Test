@@ -1,0 +1,4 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml"
+
+#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN F1
+acestream:?infohash=dc0732e5f63a59001b7ef446a7e69c4a4adf7999
