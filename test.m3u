@@ -8,3 +8,7 @@ acestream:?infohash=dc0732e5f63a59001b7ef446a7e69c4a4adf7999
 
 #EXTINF:-1 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Acción", San Andreas
 https://stream-4891-212-105.cdnpvd.co/juohprdrpmikkfn2mdzpynkph4grkqw3io7cyrzyh7q5pex344yq4riuba/v.mp4
+
+#EXTINF:-1 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Acción", San Andreas
+https://www.youtube.com/watch?v=ZsGyPU09jJg&t=5s&ab_channel=JonathanMendoza
+
