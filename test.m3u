@@ -1,7 +1,10 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml"
 
 #EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.png" group-title="Deportes", DAZN F1
-acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
+https://www.google.com/url?q=https%3A%2F%2Ftinyurl.com%2Fdazn-channel-f1&sa=D&sntz=1&usg=AOvVaw0UCy3CtlPGZU1hyZ3-j1ji
+
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.png" group-title="Deportes", DAZN 1
+acestream:?infohash=dc0732e5f63a59001b7ef446a7e69c4a4adf7999
 
 #EXTINF:-1,tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 1
 plugin://plugin.video.p2p-streams/?url=acestream://e6aaeb0c93c291a4cfe2c04d05c6b1e906f54955&mode=1&name=acestream+SKY SPORTS 1MS</link>
