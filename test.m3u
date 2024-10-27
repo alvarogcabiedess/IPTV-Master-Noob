@@ -3,30 +3,26 @@
 #EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN F1
 acestream:?infohash=dc0732e5f63a59001b7ef446a7e69c4a4adf7999
 
-#EXTINF:-1,Sky Sports 1
+#EXTINF:-1,tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 1
 plugin://plugin.video.p2p-streams/?url=acestream://e6aaeb0c93c291a4cfe2c04d05c6b1e906f54955&mode=1&name=acestream+SKY SPORTS 1MS</link>
 
-#EXTINF:-1,Sky Sports 2
+#EXTINF:-1, tvg-id="DAZN 2" tvg-name="DAZN 2" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 2
 plugin://plugin.video.p2p-streams/?url=acestream://385d091266bd417ac855161cfce393adee85f0af&mode=1&name=acestream+SKY SPORTS 2MS</link>
 
-#EXTINF:-1,Sky Sports 3
+#EXTINF:-1, tvg-id="DAZN 3" tvg-name="DAZN 3" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 3
 plugin://plugin.video.p2p-streams/?url=acestream://7f480a00ac478b65fb75cfdde76ef38ee151b887&mode=1&name=acestream+SKY SPORTS 3MS</link>
 
-#EXTINF:-1,Sky Sports 4
+#EXTINF:-1, tvg-id="DAZN 4" tvg-name="DAZN 4" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 4
 plugin://plugin.video.p2p-streams/?url=acestream://1949cd0059457507c0e9759b736831983f29ae56&mode=1&name=acestream+SKY SPORTS 4MS</link>
 
-#EXTINF:-1,Sky Sports 5
+#EXTINF:-1, tvg-id="DAZN 5" tvg-name="DAZN 5" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 5
 plugin://plugin.video.p2p-streams/?url=acestream://e72bb7060e8e4780e65ed45e81bf09bf352f496b&mode=1&name=acestream+SKY SPORTS 5MS</link>
 
-#EXTINF:-1,Sky Sports F1
+#EXTINF:-1, tvg-id="DAZN 6" tvg-name="DAZN 6" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 6
 plugin://plugin.video.p2p-streams/?url=acestream://2dff503259045e4d119e6e972a3db8521c47198a&mode=1&name=acestream+SKY SPORTS f1MS
 
-#EXTINF:-1,BT SPORTS 1
+#EXTINF:-1, tvg-id="DAZN 7" tvg-name="DAZN 7" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 7
 plugin://plugin.video.p2p-streams/?url=acestream://419d44a6565ec562ec611d4d2622e19af4df035e&mode=1&name=acestream+BTMSSPORTS1
 
-#EXTINF:-1,BT SPORTS 2
+#EXTINF:-1, tvg-id="DAZN 8" tvg-name="DAZN 8" tvg-logo="https://th.bing.com/th/id/OIP.J-b28Opmn36Wmzt3oEFGWAHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Deportes", DAZN 8
 plugin://plugin.video.p2p-streams/?url=acestream://420ad279e44eef83b36673f4352373869e86a322&mode=1&name=acestream+BTMSSPORTS2
-
-
-#EXTINF:-1,VIASAT GOLF
-plugin://plugin.video.p2p-streams/?url=acestream://aed5b1139b4ce07fca67d0b0ba8a3a0b84db53e5&mode=1&name=acestream+VIASATMSGOLF
