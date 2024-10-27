@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml"
 
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.png" group-title="Deportes", DAZN F1
-https://www.google.com/url?q=https%3A%2F%2Ftinyurl.com%2Fdazn-channel-f1&sa=D&sntz=1&usg=AOvVaw0UCy3CtlPGZU1hyZ3-j1ji
+#EXTINF:-1 tvg-id="M.Plus 1080p" tvg-name="M.Plus 1080p" tvg-logo="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.png" group-title="Deportes", M.Plus 1080p
+acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
 
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.png" group-title="Deportes", DAZN 1
 acestream:?infohash=dc0732e5f63a59001b7ef446a7e69c4a4adf7999
