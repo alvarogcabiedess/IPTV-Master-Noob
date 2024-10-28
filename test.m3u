@@ -6,13 +6,13 @@ https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr_720.m3u8
 #EXTINF:-1 tvg-id="La 2" tvg-name="La 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LA2.png" group-title="Televisión/Documentales", La 2
 https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="Antena3" tvg-name="Antena3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/A3.png" group-title="Televisión/Noticias", Antena3
+#EXTINF:-1 tvg-id="Antena 3" tvg-name="Antena 3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/A3.png" group-title="Televisión/Noticias", Antena 3
 https://atres-live.atresmedia.com/7528fbae5e4e312f1dfe1dca4a19842d0b63b941_ES_1730112216_1730140956/h264/live/antena3/bitrate_3.m3u8
 
 #EXTINF:-1 tvg-id="Telemadrid" tvg-name="Telemadrid" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TELMAD.png" group-title="Televisión/Noticias", Telemadrid
 https://telemadrid-23-secure2.akamaized.net/master.m3u8
 
-#EXTINF:-1 tvg-id="Clan TVE" tvg-name="Clan" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CLANTV.png" group-title="Televisión/Infantil", Clan
+#EXTINF:-1 tvg-id="Clan TVE" tvg-name="Clan" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CLANTV.png" group-title="Televisión/Infantil", Clan TVE
 https://d3nnqrdb77sy13.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eimbp20cszixb/Clan_ES.m3u8
 
 #EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TDEP.png" group-title="Televisión/Deportes", Teledeporte
