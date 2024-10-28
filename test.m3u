@@ -3,6 +3,9 @@
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 plugin://script.module.horus?action=play&id=
 
+#EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="" group-title="Deportes", 
+https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main_dvr_720.m3u8
+
 #EXTINF:-1 tvg-id="M+ LALIGA TV" tvg-name="M+ LALIGA TV" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png" group-title="Fútbol", M+ LALIGA TV
 plugin://script.module.horus?action=play&id=aad075af0f7ce4118b6b21c1ed898dd493842e97
 
