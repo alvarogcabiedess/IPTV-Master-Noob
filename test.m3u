@@ -9,12 +9,12 @@ plugin://script.module.horus?action=play&id=aad075af0f7ce4118b6b21c1ed898dd49384
 #EXTINF:-1 tvg-id="M+ LALIGA TV 2" tvg-name="M+ LALIGA TV 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png" group-title="Fútbol", M+ LALIGA TV 2
 plugin://script.module.horus?action=play&id=f5b9e600617ed98bed851af15df966c218bb5bde
 
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="Deportes", DAZN F1
+#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="Fórmula 1", DAZN F1
 plugin://script.module.horus?action=play&id=5789ca155323664edd293b848606688edf803f4d
 
-#EXTINF:5775 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Acción", San Andreas
+#EXTINF:5775 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Películas/Acción", San Andreas
 https://stream-4891-212-105.cdnpvd.co/juohprdrpmikkfn2mdzpynkph4grkqw3io7cyrzyh7q5pex344yq4riuba/v.mp4
 
-#EXTINF:8775 tvg-name="Gran Premio México 2024 Inglés" tvg-language="English" tvg-logo="https://www.bing.com/images/search?view=detailV2&ccid=bP1wMRTd&id=30463E0740A15B24E716FFCA76D5C991FECFA423&thid=OIP.bP1wMRTdUHv8mAhucuGJFQHaEo&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f2180267.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.6cfd703114dd507bfc98086e72e18915%3frik%3dI6TP%252fpHJ1XbK%252fw%26pid%3dImgRaw%26r%3d0&exph=2400&expw=3840&q=logo+formula+1&simid=608036261842215509&FORM=IRPRST&ck=23DCDA765B098B31F72033863412E5BF&selectedIndex=7&itb=0" group-title="Carreras Motor", Gran Premio México 2024 Inglés
+#EXTINF:8775 tvg-name="Gran Premio México 2024 Inglés" tvg-language="English" tvg-logo=" group-title="Archivo", Gran Premio México 2024 Inglés
 https://spcdn.xyz/player/embed.php?data=d0b4e54ddd9f0982db522becb8041071
 
