@@ -1,51 +1,54 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml"
 
-#EXTINF:-1 tvg-id="La 1" tvg-name="La 1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TVE.png" group-title="Televisión/Noticias", La 1
+#EXTINF:-1 tvg-id="La 1" tvg-name="La 1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TVE.png" group-title="News", La 1
 https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="La 2" tvg-name="La 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LA2.png" group-title="Televisión/Documentales", La 2
+#EXTINF:-1 tvg-id="La 2" tvg-name="La 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LA2.png" group-title="Documentary", La 2
 https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="Antena 3" tvg-name="Antena 3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/A3.png" group-title="Televisión/Noticias", Antena 3
+#EXTINF:-1 tvg-id="Antena 3" tvg-name="Antena 3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/A3.png" group-title="News", Antena 3
 https://atres-live.atresmedia.com/7528fbae5e4e312f1dfe1dca4a19842d0b63b941_ES_1730112216_1730140956/h264/live/antena3/bitrate_3.m3u8
 https://atres-live.atresmedia.com/7528fbae5e4e312f1dfe1dca4a19842d0b63b941_ES_1730112216_1730140956/h264/live/antena3/audio_1.m3u8
 
-#EXTINF:-1 tvg-id="Telemadrid" tvg-name="Telemadrid" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TELMAD.png" group-title="Televisión/Noticias", Telemadrid
+#EXTINF:-1 tvg-id="Telemadrid" tvg-name="Telemadrid" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TELMAD.png" group-title="News", Telemadrid
 https://telemadrid-23-secure2.akamaized.net/master.m3u8
 
-#EXTINF:-1 tvg-id="Clan TVE" tvg-name="Clan" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CLANTV.png" group-title="Televisión/Infantil", Clan TVE
+#EXTINF:-1 tvg-id="Clan TVE" tvg-name="Clan" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CLANTV.png" group-title="Children's", Clan TVE
 https://d3nnqrdb77sy13.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eimbp20cszixb/Clan_ES.m3u8
 
-#EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TDEP.png" group-title="Televisión/Deportes", Teledeporte
+#EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TDEP.png" group-title="Sports", Teledeporte
 https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="La Otra" tvg-name="La Otra" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/OTRA.png" group-title="Televisión/Variado", La Otra
+#EXTINF:-1 tvg-id="La Otra" tvg-name="La Otra" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/OTRA.png" group-title="Social", La Otra
 https://laotra-1-23-secure2.akamaized.net/master.m3u8
 
-#EXTINF:-1 tvg-id="M+ LALIGA TV" tvg-name="M+ LALIGA TV" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png" group-title="Movistar/Fútbol", M+ LALIGA TV
+
+
+
+#EXTINF:-1 tvg-id="M+ LALIGA TV" tvg-name="M+ LALIGA TV" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png" group-title="Football", M+ LALIGA TV
 plugin://script.module.horus?action=play&id=aad075af0f7ce4118b6b21c1ed898dd493842e97
 
-#EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION" tvg-name="LALIGA TV HYPERMOTION" tvg-logo="" group-title="Movistar/Fútbol", LALIGA TV HYPERMOTION
+#EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION" tvg-name="LALIGA TV HYPERMOTION" tvg-logo="" group-title="Football", LALIGA TV HYPERMOTION
 plugin://script.module.horus?action=play&id=4c81dacfe639d74722d0c26a4f6a4f2dfebfd29c
 
-#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones" tvg-logo="" group-title="Movistar/Fútbol", M+ Liga de Campeones
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones" tvg-logo="" group-title="Football", M+ Liga de Campeones
 plugin://script.module.horus?action=play&id=ac592443792e737d1320419776816f51982c3c2f
 
-#EXTINF:-1 tvg-id="M+ Deportes" tvg-name="M+ Deportes" tvg-logo="" group-title="Movistar/Deportes", M+ Deportes
+#EXTINF:-1 tvg-id="M+ Deportes" tvg-name="M+ Deportes" tvg-logo="" group-title="Sports", M+ Deportes
 plugin://script.module.horus?action=play&id=8aba55f4f1f47def54447e845518109d797339e7
 
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="DAZN/Fórmula 1", DAZN F1
+#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="Motor Sport", DAZN F1
 plugin://script.module.horus?action=play&id=5789ca155323664edd293b848606688edf803f4d
 
 
-#EXTINF:8775 tvg-name="Gran Premio México 2024 Inglés" tvg-language="English" tvg-logo=" group-title="Archivo/Fórmula 1", Gran Premio México 2024 Inglés
+#EXTINF:8775 tvg-name="Gran Premio México 2024 Inglés" tvg-language="English" tvg-logo=" group-title="Motor Sport", Gran Premio México 2024 Inglés
 https://spcdn.xyz/player/embed.php?data=d0b4e54ddd9f0982db522becb8041071
 
 
-#EXTINF:9422 tvg-name="Harry Potter y el cáliz de Fuego" tvg-logo="https://th.bing.com/th/id/OIP.i5IjruISqE_Fdpz8ZrNQQAHaLH?w=208&h=305&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Películas", Harry Potter y el cáliz de Fuego
+#EXTINF:9422 tvg-name="Harry Potter y el caliz de Fuego" tvg-logo="https://th.bing.com/th/id/OIP.i5IjruISqE_Fdpz8ZrNQQAHaLH?w=208&h=305&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Movies", Harry Potter y el caliz de Fuego
 https://cloud-s8091-48-224.spcdn.cc/h75awst6zlekalhulnlty7w7jkoxxyi4nmtokb5gztgsxh7lo65wwytiui6a/v.mp4
 
-#EXTINF:5775 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Películas", San Andreas
+#EXTINF:5775 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Movies", San Andreas
 https://stream-4891-212-105.cdnpvd.co/juohprdrpmikkfn2mdzpynkph4grkqw3io7cyrzyh7q5pex344yq4riuba/v.mp4
 
 
