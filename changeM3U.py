@@ -1,22 +1,27 @@
+from flask import Flask, render_template, request, jsonify
 import requests
+import html
+
+app = Flask(__name__)
 
 def obtener_html(url):
     try:
-        # Realiza la solicitud GET a la URL
         respuesta = requests.get(url)
-        respuesta.raise_for_status()  # Verifica si hubo un error en la solicitud
-        
-        # Devuelve el contenido HTML de la página
+        respuesta.raise_for_status()
         return respuesta.text
-    
     except requests.exceptions.RequestException as e:
-        # En caso de error, muestra el mensaje de error
-        print(f"Error al obtener la página: {e}")
-        return None
+        return f"Error al obtener la página: {e}"
 
-# Ejemplo de uso
-url = "https://www.ejemplo.com"
-contenido_html = obtener_html(url)
+@app.route('/')
+def index():
+    return render_template("index.html")
 
-if contenido_html:
-    print(contenido_html)
+@app.route('/obtener_html', methods=['POST'])
+def obtener_html_ruta():
+    url = request.json.get("url")
+    contenido_html = obtener_html(url)
+    contenido_html_escapado = html.escape(contenido_html)
+    return jsonify({"html": contenido_html_escapado})
+
+if __name__ == "__main__":
+    app.run(debug=True)
