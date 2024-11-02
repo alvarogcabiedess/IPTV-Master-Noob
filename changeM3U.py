@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-# Función para extraer el HTML de la página
+# Función para obtener el HTML de la página
 def obtener_html(url):
     try:
         respuesta = requests.get(url)
@@ -10,6 +10,22 @@ def obtener_html(url):
     except requests.exceptions.RequestException as e:
         print(f"Error al obtener la página: {e}")
         return None
+
+# Función para extraer el enlace del logo de un canal desde tvlogos.net
+def obtener_logo(canal_nombre):
+    # Reemplaza "1080p" y "720p", quita espacios, y construye la URL de búsqueda
+    canal_nombre_limpio = canal_nombre.replace("1080p", "").replace("720p", "").replace(" ", "")
+    url_busqueda = f"https://www.tvlogos.net/logos?search={canal_nombre_limpio}"
+    print(f"Buscando logo de {canal_nombre} en {url_busqueda}")
+    html = obtener_html(url_busqueda)
+
+    if html:
+        soup = BeautifulSoup(html, 'html.parser')
+        # Busca el primer elemento con el atributo 'data-logo'
+        logo_elemento = soup.find(attrs={"data-logo": True})
+        if logo_elemento:
+            return logo_elemento["data-logo"]  # Extrae el enlace del logo
+    return None  # Retorna None si no encuentra el logo
 
 # Función para extraer los elementos <strong> y sus enlaces acestream://
 def extraer_datos(html):
@@ -24,7 +40,8 @@ def extraer_datos(html):
         # Busca enlaces "acestream://" en los siguientes <a> del <strong>
         for sibling in strong_tag.find_next_siblings():
             if sibling.name == 'a' and sibling['href'].startswith('acestream://'):
-                enlaces_acestream.append(sibling['href'])
+                enlace_sin_prefijo = sibling['href'].replace("acestream://", "")
+                enlaces_acestream.append(enlace_sin_prefijo)
             elif sibling.name == 'br':
                 break  # Detenerse si llega a un <br> que indica fin de la lista
 
@@ -34,14 +51,40 @@ def extraer_datos(html):
 
     return resultados
 
-# URL de ejemplo (cámbiala por la URL real)
-url = "https://example.com"  # Cambia esta URL por la página real
+# Función para generar el archivo M3U
+def generar_m3u(datos, nombre_archivo="playlist.m3u"):
+    with open(nombre_archivo, "w", encoding="utf-8") as archivo:
+        archivo.write("#EXTM3U\n")  # Escribe la cabecera del archivo M3U
+        ultimo_nombre = None  # Variable para guardar el último nombre usado
+
+        for elemento in datos:
+            nombre = elemento[0]
+            enlaces = elemento[1]
+
+            # Omitir elementos con corchetes
+            if "[" in nombre and "]" in nombre:
+                continue
+
+
+            if "720p" in nombre:
+                if ultimo_nombre:
+                    nombre = ultimo_nombre.replace("1080p", "").strip() + " 720p"
+            else:
+                ultimo_nombre = nombre  # Actualizar el último nombre solo si no es una variante "720p"
+
+            # Obtiene el logo desde tvlogos.net, omitiendo "1080p" y "720p"
+            logo_url = obtener_logo(nombre) or "https://cdn.countryflags.com/thumbs/spain/flag-round-250.png"  # URL predeterminada si no se encuentra el logo
+
+            # Modificar el nombre si contiene "720p" y ajustar usando el último nombre
+            for enlace in enlaces:
+                archivo.write(f'#EXTINF:-1 tvg-id="{nombre}" tvg-name="{nombre}" tvg-logo="{logo_url}" group-title="Movistar / Football", M+ LALIGA TV\n')
+                archivo.write(f'plugin://script.module.horus?action=play&id={enlace}\n')
+
+# URL de ejemplo
+url = "https://elplan94.github.io/hook/"  # Cambia esta URL por la página real
 html = obtener_html(url)
 
 if html:
     datos = extraer_datos(html)
-    print(datos)
-    print("Hola, aquí tienes los datos extraídos:")
-    for elemento in datos:
-        print("Título:", elemento[0])
-        print(elemento)
+    generar_m3u(datos, "playlist.m3u")
+    print("Archivo M3U generado exitosamente.")

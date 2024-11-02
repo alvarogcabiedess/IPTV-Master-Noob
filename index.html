@@ -3,44 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contenido HTML en Texto</title>
+    <title>Generar M3U</title>
     <style>
         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 20px;
         }
-        pre {
-            background-color: #f4f4f4;
-            padding: 15px;
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
             border-radius: 5px;
-            white-space: pre-wrap;
-            word-wrap: break-word;
         }
     </style>
 </head>
 <body>
-    <h1>Contenido HTML en Formato de Texto</h1>
-    <input type="text" id="url" placeholder="Introduce una URL" style="width: 80%;">
-    <button onclick="obtenerContenido()">Obtener Contenido</button>
-    <div id="contenido" style="margin-top: 20px;">
-        <pre id="html-content"></pre>
-    </div>
-
+    <button onclick="runScript()">Generar Archivo M3U</button>
     <script>
-        function obtenerContenido() {
-            const url = document.getElementById("url").value;
-            fetch("/obtener_html", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ url })
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("html-content").innerText = data.html;
-            })
-            .catch(error => console.error("Error:", error));
+        function runScript() {
+            fetch('/run-script', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                })
+                .catch(error => {
+                    alert('Error al ejecutar el script.');
+                    console.error(error);
+                });
         }
     </script>
 </body>
