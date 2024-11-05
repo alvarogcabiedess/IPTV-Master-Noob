@@ -36,8 +36,21 @@ plugin://script.module.horus?action=play&id=aad075af0f7ce4118b6b21c1ed898dd49384
 #EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION" tvg-name="LALIGA TV HYPERMOTION" tvg-logo="" group-title="Movistar / Football", LALIGA TV HYPERMOTION
 plugin://script.module.horus?action=play&id=4c81dacfe639d74722d0c26a4f6a4f2dfebfd29c
 
-#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones" tvg-logo="" group-title="Movistar / Football", M+ Liga de Campeones
-plugin://script.module.horus?action=play&id=ac592443792e737d1320419776816f51982c3c2f
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 1080 1" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=f096a64dd756a6d549aa7b12ee9acf7eee27e833
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 1080 2" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=1d79a7543d691666135669f89f3541f54e2dd0a9
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 1080 3" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=931b1984badcb821df7b47a66ac0835ac871b51c
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 720 1" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=e2e2aca792aae5da19995ac516b1d620531bd49c
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 720 2" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=6b56c1de436327b49e429a702e81e9269630e37a
+
 
 #EXTINF:-1 tvg-id="M+ Deportes" tvg-name="M+ Deportes" tvg-logo="" group-title="Movistar / Sports", M+ Deportes
 plugin://script.module.horus?action=play&id=8aba55f4f1f47def54447e845518109d797339e7
