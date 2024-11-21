@@ -60,10 +60,6 @@ plugin://script.module.horus?action=play&id=5789ca155323664edd293b848606688edf80
 
 
 
-#EXTINF:8775 tvg-name="Gran Premio México 2024 Inglés" tvg-language="English" tvg-logo=" group-title="Archive / Motor Sport", Gran Premio México 2024 Inglés
-https://spcdn.xyz/player/embed.php?data=d0b4e54ddd9f0982db522becb8041071
-
-
 
 
 #EXTINF:-1 tvg-name="Harry Potter y el caliz de Fuego" tvg-logo="https://th.bing.com/th/id/OIP.i5IjruISqE_Fdpz8ZrNQQAHaLH?w=208&h=305&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Movies / Adventure / Harry Potter", Harry Potter y el caliz de Fuego
@@ -89,4 +85,7 @@ https://s30.gamovideo.com:444/ffap4cuebznv3h2yugk53n22ek5puzubcplv6zz4gjdrkq2bwy
 
 #EXTINF:-1 tvg-name="Lamborghini" tvg-logo="http://image.tmdb.org/t/p/w500/RKgnYLhCNGCUkrhiCRrs40rEHe.jpg" group-title="Movies / Action", Lamborghini
 https://stream-4291-31-166.cdnpvd.co/k4ohpczkgqikkfn2mdg7qiqre2bizunftm7gcow5e44vd7dyeb5twaehza/v.mp4
+
+#EXTINF:-1 tvg-name="Lobezno Inmortal" tvg-logo="http://image.tmdb.org/t/p/w500/emxbSwkuTxZ8arG1YNKlgUjrpGO.jpg" group-title="Movies / Action", Lobezno Inmortal
+https://nitro.download/view/D9129297C5293D8/lbzn01nmrt4l.2013.1080p.Cast.mkv
 
