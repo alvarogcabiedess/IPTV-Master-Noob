@@ -27,12 +27,20 @@ def obtener_logo(canal_nombre):
             return logo_elemento["data-logo"]  # Extrae el enlace del logo
     return None  # Retorna None si no encuentra el logo
 
-# Función para extraer los elementos <strong> y sus enlaces acestream://
+# Función para extraer los elementos <strong> y sus enlaces acestream:// dentro del rango especificado
 def extraer_datos(html):
+    # Encuentra los índices de las secciones de inicio y fin
+    start_index = html.find("ESP - TV")
+    end_index = html.find("EUR / RU / NA / SA - TV")
+
+    # Procesa solo el contenido entre estos índices si ambas secciones están presentes
+    if start_index != -1 and end_index != -1 and start_index < end_index:
+        html = html[start_index:end_index]
+
     soup = BeautifulSoup(html, 'html.parser')
     resultados = []
 
-    # Encuentra todos los elementos <strong> y <a> relacionados
+    # Encuentra todos los elementos <strong> y <a> relacionados dentro del rango
     for strong_tag in soup.find_all('strong'):
         texto = strong_tag.get_text()
         enlaces_acestream = []
@@ -61,23 +69,31 @@ def generar_m3u(datos, nombre_archivo="playlist.m3u"):
             nombre = elemento[0]
             enlaces = elemento[1]
 
-            # Omitir elementos con corchetes
-            if "[" in nombre and "]" in nombre:
+            # Omitir elementos con corchetes o con las palabras "fem" o "golf"
+            if ("[" in nombre and "]" in nombre) or "fem" in nombre.lower() or "golf" in nombre.lower():
                 continue
 
-
+            # Modificar el nombre si es "720p" basándose en el último nombre usado
             if "720p" in nombre:
                 if ultimo_nombre:
                     nombre = ultimo_nombre.replace("1080p", "").strip() + " 720p"
             else:
                 ultimo_nombre = nombre  # Actualizar el último nombre solo si no es una variante "720p"
 
+            # Determinar el group-title basado en palabras clave en el nombre
+            if "Liga" in nombre or "Campeones" in nombre:
+                group_title = "Football"
+            elif "F1" in nombre:
+                group_title = "Formula 1"
+            else:
+                group_title = "Deportes"
+
             # Obtiene el logo desde tvlogos.net, omitiendo "1080p" y "720p"
             logo_url = obtener_logo(nombre) or "https://cdn.countryflags.com/thumbs/spain/flag-round-250.png"  # URL predeterminada si no se encuentra el logo
 
-            # Modificar el nombre si contiene "720p" y ajustar usando el último nombre
+            # Escribe la entrada en el archivo M3U para cada enlace
             for enlace in enlaces:
-                archivo.write(f'#EXTINF:-1 tvg-id="{nombre}" tvg-name="{nombre}" tvg-logo="{logo_url}" group-title="Movistar / Football", M+ LALIGA TV\n')
+                archivo.write(f'#EXTINF:-1 tvg-id="{nombre}" tvg-name="{nombre}" tvg-logo="{logo_url}" group-title="{group_title}", {nombre}\n')
                 archivo.write(f'plugin://script.module.horus?action=play&id={enlace}\n')
 
 # URL de ejemplo
@@ -87,4 +103,4 @@ html = obtener_html(url)
 if html:
     datos = extraer_datos(html)
     generar_m3u(datos, "playlist.m3u")
-    print("Archivo M3U generado exitosamente.")
+    print("Archivo M3U generado exitosamente. Gracias 12/11/2021")
