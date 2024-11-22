@@ -35,4 +35,4 @@ jobs:
           git commit -m 'Actualizar datos automáticamente' || echo "No hay cambios para hacer commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usa el token para el push
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Usa el token para el push
