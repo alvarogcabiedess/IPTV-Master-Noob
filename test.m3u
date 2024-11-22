@@ -97,3 +97,6 @@ https://24q0stgk4bnr.cdn-jupiter.com/hls2/01/03238/hg9yueae5he0_x/index-v1-a1.m3
 
 #EXTINF:-1 tvg-name="X-Men: Apocalipsis" tvg-logo="http://image.tmdb.org/t/p/w500/i5ET4lACwrb97sdPzmIThieasOk.jpg" group-title="Movies / Action", X-Men: Apocalipsis
 https://str12.vtube.network/hls/,x5s4322aifyki6cgapamrjvop2bgza2ydar7a7fz4grsnpd2m7z337zlrx5q,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-name="X-Men: Dark Phoenix" tvg-logo="http://image.tmdb.org/t/p/w500/rdByKDkfyVuVSrkllzxKYXiZmTd.jpg" group-title="Movies / Action", X-Men: Dark Phoenix
+https://str13.vtube.network/hls/,x5s4vqkaifyki6cgapamrjnbmi563mntmmrulfitjmaxnivkupxi2b5rsttq,.urlset/master.m3u8
