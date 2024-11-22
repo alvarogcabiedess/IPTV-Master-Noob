@@ -2,7 +2,7 @@ name: Actualizar datos cada 2 horas
 
 on:
   schedule:
-    - cron: '0 /2 * * * *'  # Esto se ejecuta cada 2 horas
+    - cron: '0 */2 * * *'  # Esto se ejecuta cada 2 horas
   workflow_dispatch:  # Permite ejecutar manualmente el flujo de trabajo
 
 jobs:
