@@ -23,7 +23,7 @@ jobs:
       # 3. Ejecutar el script de Python
       - name: Ejecutar el script
         run: |
-          python atiendeSolicitudes/añadeAlCambio.py
+          python PLCLs/atiendeSolicitudes/actualizaCambio.py
       # 4. Commit & Push
       - name: Hacer commit de los cambios
         run: |
