@@ -2,8 +2,8 @@ import os
 
 # Configura las rutas de las carpetas y archivos
 solicitudes_folder = "PLCLs/atiendeSolicitudes/solicitudes"
-playlist_file = "testing_PLCLs.m3u"
-historial_file = "historial.dat"
+playlist_file = "lib/testing_PLCLs.m3u"
+historial_file = "PLCLs/atiendeSolicitudes/solicitudes/historial/historial.dat"
 
 def add_file_to_playlist_and_update_historial():
     # Busca el primer archivo en la carpeta 'solicitudes'
