@@ -1,7 +1,7 @@
 import os
 
 # Configura las rutas de las carpetas y archivos
-solicitudes_folder = "solicitudes"
+solicitudes_folder = "PLCLs/atiendeSolicitudes/solicitudes"
 playlist_file = "testing_PLCLs.m3u"
 historial_file = "historial.dat"
 
