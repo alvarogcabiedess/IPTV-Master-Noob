@@ -140,5 +140,7 @@ plugin://script.module.horus?action=play&id=8ba764f6a3bce6eae87ec71208fad1aa3a20
 plugin://script.module.horus?action=play&id=8ba764f6a3bce6eae87ec71208fad1aa3a20528d
 #EXTINF:-1 tvg-id="MundoToro HD" tvg-name="MundoToro HD" tvg-logo="https://www.tvlogos.net/logos?search=MundoToroHD" group-title="Movistar / Football", M+ LALIGA TV
 plugin://script.module.horus?action=play&id=8ba764f6a3bce6eae87ec71208fad1aa3a20528d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tvlogos.net/logos?search=" group-title="Movistar / Football", M+ LALIGA TV
-plugin://script.module.horus?action=play&id=8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+
+
+#EXTINF:-1 tvg-id="S.W.A.T Los hombres de Harrelson" tvg-name="S.W.A.T Los hombres de Harrelson 5x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T Los hombres de Harrelson
+https://stream-4291-31-166.cdnpvd.co/k4ohozclhqikkfn2mbu7qmyxeljafqsqkrcmygd2r5g34hggudntpqa7zu/v.mp4
