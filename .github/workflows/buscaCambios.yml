@@ -25,7 +25,7 @@ jobs:
         run: |
           python añadeAlCambio.py
       # 4. Commit & Push
-      - name: Hacer commit de los cambios (si los hay)
+      - name: Hacer commit de los cambios
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
