@@ -3,7 +3,7 @@ name: Ejecutar script al agregar archivo
 on:
   push:
     paths:
-      - solicitudes/**  # Monitorea cambios en la carpeta 'solicitudes'
+      - atiendeSolicitudes/solicitudes/**  # Monitorea cambios en la carpeta 'solicitudes'
 
 jobs:
   ejecutar-script:
@@ -23,7 +23,7 @@ jobs:
       # 3. Ejecutar el script de Python
       - name: Ejecutar el script
         run: |
-          python añadeAlCambio.py
+          python atiendeSolicitudes/añadeAlCambio.py
       # 4. Commit & Push
       - name: Hacer commit de los cambios
         run: |
