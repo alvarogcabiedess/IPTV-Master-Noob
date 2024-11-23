@@ -14,6 +14,7 @@ def add_file_to_playlist():
 
         # Obtiene el primer archivo
         first_file = files[0]
+        print(f"Se encontró el archivo '{first_file}' en la carpeta '{solicitudes_folder}'.")
 
         # Agrega el nombre del archivo al archivo 'testing_PLCLs.m3u'
         with open(playlist_file, "a") as playlist:
