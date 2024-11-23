@@ -3,7 +3,7 @@ name: Ejecutar script al agregar archivo
 on:
   push:
     paths:
-      - atiendeSolicitudes/solicitudes/**  # Monitorea cambios en la carpeta 'solicitudes'
+      - PLCLs/atiendeSolicitudes/solicitudes/**  # Monitorea cambios en la carpeta 'solicitudes'
 
 jobs:
   ejecutar-script:
