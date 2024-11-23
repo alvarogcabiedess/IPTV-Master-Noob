@@ -24,3 +24,13 @@ jobs:
       - name: Ejecutar el script
         run: |
           python añadeAlCambio.py
+      # 4. Commit & Push
+      - name: Hacer commit de los cambios (si los hay)
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          git commit -m 'Actualizar datos automáticamente' || echo "No hay cambios para hacer commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Usa el token para el push
