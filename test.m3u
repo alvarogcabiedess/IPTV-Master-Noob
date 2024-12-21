@@ -124,3 +124,15 @@ https://s25.gamovideo.com:444/fvap4l6vnfnv3h2yue75vnstmhh3z4xf5gwotrh63nmnkcto77
 
 #EXTINF:-1 tvg-name="Gladiator" tvg-logo="http://image.tmdb.org/t/p/w500/90QFOG5zSN4cbrIVs4DL4ePAuA5.jpg" group-title="Movies / Action", Gladiator
 https://str12.vtube.network/hls/,x5s47ydnnryki6cgaplmto7qntwejyw6sslegh7a5757vswuid67wvszimia,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-name="Tú la letra, yo la música" tvg-logo="http://image.tmdb.org/t/p/w500/iRmkRnWlcoWaQERNyj9I8COAc5n.jpg" group-title="Movies / Romance", Tú la letra, yo la música
+https://uy4dtz5s9w9p.milocdn.com/hls2/01/00857/osh5w5dtg0v3_h/master.m3u8?t=Vm32bRpjTEpW896f4VeMw5OGWzrv8Ewwr1JcJMExhWQ&s=1734797064&e=129600&f=4287209&srv=iWHz5zpkSLGQy&i=0.4&sp=500&p1=iWHz5zpkSLGQy&p2=iWHz5zpkSLGQy&asn=15704
+
+#EXTINF:-1 tvg-name="Red One" tvg-logo="http://image.tmdb.org/t/p/w500/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg" group-title="Movies / Action", Red One
+https://be7713.rcr82.waw05.cdn255.com/hls2/01/07559/aqbcipade5pw_x/master.m3u8?t=XqO2ENF2WRotTdfp1EISEA3w6-0OqrilrL6tPa9I3DE&s=1734797454&e=10800&f=37796385&srv=09&asn=15704&sp=5500&p=
+
+#EXTINF:-1 tvg-name="Red One" tvg-logo="http://image.tmdb.org/t/p/w500/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg" group-title="Movies / Action", Red One
+https://be7713.rcr82.waw05.cdn255.com/hls2/01/07559/aqbcipade5pw_x/master.m3u8?t=XqO2ENF2WRotTdfp1EISEA3w6-0OqrilrL6tPa9I3DE&s=1734797454&e=10800&f=37796385&srv=09&asn=15704&sp=5500&p=
+
+#EXTINF:-1 tvg-name="Programa de Protección de Princesas" tvg-logo="http://image.tmdb.org/t/p/w500/9Q1xZr9PnhnunaXuHstWtC2jQcc.jpg" group-title="Movies / Disney", Programa de Protección de Princesas
+https://stream-4291-31-166.cdnpvd.co/k4ohpwushqikkfn2mbzpqzquhllttlsigcs64conur5lewwpcn26ulbche/v.mp4
