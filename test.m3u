@@ -136,3 +136,6 @@ https://be7713.rcr82.waw05.cdn255.com/hls2/01/07559/aqbcipade5pw_x/master.m3u8?t
 
 #EXTINF:-1 tvg-name="Programa de Protección de Princesas" tvg-logo="http://image.tmdb.org/t/p/w500/9Q1xZr9PnhnunaXuHstWtC2jQcc.jpg" group-title="Movies / Disney", Programa de Protección de Princesas
 https://stream-4291-31-166.cdnpvd.co/k4ohpwushqikkfn2mbzpqzquhllttlsigcs64conur5lewwpcn26ulbche/v.mp4
+
+#EXTINF:-1 tvg-name="16 Deseos" tvg-logo="16 Deseos" group-title="Movies / Disney", 16 Deseos
+https://s26.gamovideo.com:444/frap5pdma5nv3h2yuel534yeoxyt7r7qq5kydvhhborfgurh4qaqj4gq7fra/v.mp4
