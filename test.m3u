@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://github.com/MPAndrew/EpgGratis/blob/master/guide.xml.gz?raw=true"
+#EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml"
 
 #EXTINF:-1 tvg-id="La 1" tvg-name="La 1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TVE.png" group-title="TV / News", La 1
 https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr_720.m3u8
