@@ -107,20 +107,23 @@ https://str12.vtube.network/hls/,x5s4322aifyki6cgapamrjvop2bgza2ydar7a7fz4grsnpd
 #EXTINF:-1 tvg-name="X-Men: Dark Phoenix" tvg-logo="http://image.tmdb.org/t/p/w500/rdByKDkfyVuVSrkllzxKYXiZmTd.jpg" group-title="Movies / Action", X-Men: Dark Phoenix
 https://str13.vtube.network/hls/,x5s4vqkaifyki6cgapamrjnbmi563mntmmrulfitjmaxnivkupxi2b5rsttq,.urlset/master.m3u8
 
-#EXTINF:-1 tvg-id="S.W.A.T Los hombres de Harrelson 5x01" tvg-name="S.W.A.T Los hombres de Harrelson 5x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T Los hombres de Harrelson 5x01
+#EXTINF:-1 tvg-id="S.W.A.T 5x01" tvg-name="S.W.A.T 5x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 5x01
 https://stream-4291-31-166.cdnpvd.co/k4ohozclhqikkfn2mbu7qmyxeljafqsqkrcmygd2r5g34hggudntpqa7zu/v.mp4
 
-#EXTINF:-1 tvg-id="S.W.A.T Los hombres de Harrelson 7x01" tvg-name="S.W.A.T Los hombres de Harrelson 7x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T Los hombres de Harrelson 7x01
+#EXTINF:-1 tvg-id="S.W.A.T 7x01" tvg-name="S.W.A.T 7x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 7x01
 https://stream-5091-212-113.cdnpvd.co/j4ohp4aqbiikkfn2mdupqia2mqnfa4shinkhgh4m4yhbi76y2frl6hbcna/v.mp4
 
-#EXTINF:-1 tvg-id="S.W.A.T Los hombres de Harrelson 3x01" tvg-name="S.W.A.T Los hombres de Harrelson 3x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T Los hombres de Harrelson 3x01
+#EXTINF:-1 tvg-id="S.W.A.T 3x01" tvg-name="S.W.A.T 3x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x01
 https://s21.gamovideo.com:444/kfap5za2njnv3h2yuex5v5cpeywh3aibbwvkckxq23kvrefnas7cjzo6mfiq/v.mp4
 
-#EXTINF:-1 tvg-id="S.W.A.T Los hombres de Harrelson 3x02" tvg-name="S.W.A.T Los hombres de Harrelson 3x02" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T Los hombres de Harrelson 3x02
+#EXTINF:-1 tvg-id="S.W.A.T 3x02" tvg-name="S.W.A.T 3x02" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x02
 https://s32.gamovideo.com:444/ezap4h5unjnv3h2yuet5v5sffgyh4yyswz7v7nixp24k6zipjlq7z6mk22za/v.mp4
 
-#EXTINF:-1 tvg-name="S.W.A.T Los hombres de Harrelson 3x03" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T Los hombres de Harrelson 3x03
+#EXTINF:-1 tvg-id="S.W.A.T 3x03" tvg-name="S.W.A.T 3x03" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x03
 https://s25.gamovideo.com:444/fvap4l6vnfnv3h2yue75vnstmhh3z4xf5gwotrh63nmnkcto77d6hr6lclbq/v.mp4
+
+#EXTINF:-1 tvg-id="S.W.A.T 4x16" tvg-name="S.W.A.T 4x16" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x03
+https://tp23.gamovideo.com:444/f5ap45zedfnv3h2yueen3525o77r5ztxcgt257kh4gfllgnveqjmr5wkb2ta/v.mp4
 
 #EXTINF:-1 tvg-name="Gladiator" tvg-logo="http://image.tmdb.org/t/p/w500/90QFOG5zSN4cbrIVs4DL4ePAuA5.jpg" group-title="Movies / Action", Gladiator
 https://str12.vtube.network/hls/,x5s47ydnnryki6cgaplmto7qntwejyw6sslegh7a5757vswuid67wvszimia,.urlset/master.m3u8
