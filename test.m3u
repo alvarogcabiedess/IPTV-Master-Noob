@@ -142,3 +142,10 @@ https://s26.gamovideo.com:444/frap5pdma5nv3h2yuel534yeoxyt7r7qq5kydvhhborfgurh4q
 
 #EXTINF:-1 tvg-name="Jungla de Cristal 1" tvg-logo="http://image.tmdb.org/t/p/w500/m54tK4wKjc1w2dp7QInG0munGao.jpg" group-title="Movies / Action", Jungla de Cristal 1
 https://h0zzcaomekv.cdn-centaurus.com/hls2/01/00784/7r8otfihog14_x/index-v1-a1.m3u8?t=S3gXRhA80YY-efjDsLrRzww81mbJApP-yXcANiNluow&s=1735229817&e=129600&f=3920145&srv=vr4pcjm18sa1&i=0.4&sp=500&p1=vr4pcjm18sa1&p2=vr4pcjm18sa1&asn=15704
+
+#EXTINF:-1 tvg-name="Objetivo: Londres" tvg-logo="http://image.tmdb.org/t/p/w500/AgivYpNxC0SqN2u8JY5udZeX3eE.jpg" group-title="Movies / Action", Objetivo:Londres
+https://be2719.rcr22.ams01.cdn255.com/hls2/01/07399/swkc3yfk6fbu_x/master.m3u8?t=0QmtE-8mSHPL-vGvnh9lZqo6sP-vYaJWZC9jkVePjuU&s=1740929798&e=10800&f=36998431&srv=22&asn=15704&sp=5500&p=
+
+#EXTINF:-1 tvg-name="Objetivo: Washington D.C" tvg-logo="http://image.tmdb.org/t/p/w500/zC8HSq4xWsPgPDjgmlFix4VMtaD.jpg" group-title="Movies / Action", Objetivo: Washington D.C
+https://cloud-s7294-109-109.spcdn.cc/h75bech77xekalhulmtdui6hjxltk26jt3vx5rthx2lee2dpsxmaplapd3ta/v.mp4
+
