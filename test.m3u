@@ -157,3 +157,9 @@ https://cdn1018.tnmr.org/hls2/03/00945/dxfd7d3hv2gz_h/master.m3u8?t=H-8Eos4xj15p
 
 #EXTINF:-1 tvg-name="Ella es el chico" tvg-logo="http://image.tmdb.org/t/p/w500/6NIvKonJblEaR6jD1BA6bsY0fXV.jpg" group-title="Movies / Romance", Ella es el chico
 https://stream-4191-31-165.cdnpvd.co/kqohooyyhmikkfn2ma3pqnsmgzvvsshxapjys747pktg7ywe3ftduackva/v.mp4
+
+#EXTINF:-1 tvg-name="Braveheart" tvg-logo="http://image.tmdb.org/t/p/w500/2734rI2tsudJ4XwOep4SEDgl4xB.jpg" group-title="Movies / Not indexed", Braveheart
+https://no6ojcmmspit.milocdn.com/hls2/01/01847/1qmcvjuxmxvu_h/index-v1-a1.m3u8?t=pcZDfNPo2AT79MiYxKWKDha4uM2Sh3oXs1t0tsnGhQ4&s=1745182796&e=129600&f=9239630&srv=nIb6EHVEwAgB&i=0.4&sp=500&p1=nIb6EHVEwAgB&p2=nIb6EHVEwAgB&asn=15704
+
+#EXTINF:-1 tvg-name="El patriota" tvg-logo="http://image.tmdb.org/t/p/w500/cizgIaq65fpq2Ft08dPmZtUxDYv.jpg" group-title="Movies / Not indexed", Braveheart
+https://stream-3891-64-63.cdnpvd.co/lmoho72peeikkfn2md476yahfqqycjk7lg6inv2xwfs7v2hqe2n72gotzm/v.mp4
