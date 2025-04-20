@@ -1,3 +1,165 @@
+#EXTM3U url-tvg=""
+
+#EXTINF:-1 tvg-id="La 1" tvg-name="La 1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TVE.png" group-title="TV / News", La 1
+https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="La 2" tvg-name="La 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LA2.png" group-title="TV / Documentary", La 2
+https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="Antena 3" tvg-name="Antena 3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/A3.png" group-title="TV / News", Antena 3
+https://atres-live.atresmedia.com/7528fbae5e4e312f1dfe1dca4a19842d0b63b941_ES_1730112216_1730140956/h264/live/antena3/bitrate_3.m3u8
+
+#EXTINF:-1 tvg-id="Telemadrid" tvg-name="Telemadrid" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TELMAD.png" group-title="TV / News", Telemadrid
+https://telemadrid-23-secure2.akamaized.net/master.m3u8
+
+#EXTINF:-1 tvg-id="Clan TVE" tvg-name="Clan" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CLANTV.png" group-title="TV / Children's", Clan TVE
+https://d3nnqrdb77sy13.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eimbp20cszixb/Clan_ES.m3u8
+
+#EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TDEP.png" group-title="TV / Sports", Teledeporte
+https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="Trece.es" tvg-logo="https://i.imgur.com/Fbti7Ln.png" group-title="Religious",Trece TV
+https://live-edge-ams-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8
+
+#EXTINF:-1 tvg-id="La Otra" tvg-name="La Otra" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/OTRA.png" group-title="TV / Social", La Otra
+https://laotra-1-23-secure2.akamaized.net/master.m3u8
+
+#EXTINF:-1 tvg-id="RealMadridTV.es" tvg-name="Real Madrid TV" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="TV / Sports", Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="M+ LALIGA TV" tvg-name="M+ LALIGA TV" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png" group-title="Movistar / Football", M+ LALIGA TV
+plugin://script.module.horus?action=play&id=aad075af0f7ce4118b6b21c1ed898dd493842e97
+
+#EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION" tvg-name="LALIGA TV HYPERMOTION" tvg-logo="" group-title="Movistar / Football", LALIGA TV HYPERMOTION
+plugin://script.module.horus?action=play&id=4c81dacfe639d74722d0c26a4f6a4f2dfebfd29c
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 1080 1" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=f096a64dd756a6d549aa7b12ee9acf7eee27e833
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 1080 2" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=1d79a7543d691666135669f89f3541f54e2dd0a9
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 1080 3" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=931b1984badcb821df7b47a66ac0835ac871b51c
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 720 1" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=e2e2aca792aae5da19995ac516b1d620531bd49c
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones 720 2" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/es/movistarligadecampeones.png" group-title="Movistar / Football", M+ Liga de Campeones
+plugin://script.module.horus?action=play&id=6b56c1de436327b49e429a702e81e9269630e37a
+
+
+#EXTINF:-1 tvg-id="M+ Deportes" tvg-name="M+ Deportes" tvg-logo="" group-title="Movistar / Sports", M+ Deportes
+plugin://script.module.horus?action=play&id=8aba55f4f1f47def54447e845518109d797339e7
+
+#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="Movistar / Motor Sport", DAZN F1
+plugin://script.module.horus?action=play&id=5789ca155323664edd293b848606688edf803f4d
+
+
+
+
+
+#EXTINF:-1 tvg-name="Harry Potter y el caliz de Fuego" tvg-logo="https://th.bing.com/th/id/OIP.i5IjruISqE_Fdpz8ZrNQQAHaLH?w=208&h=305&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Movies / Adventure / Harry Potter", Harry Potter y el caliz de Fuego
+https://cloud-s8091-48-224.spcdn.cc/h75awst6zlekalhulnlty7w7jkoxxyi4nmtokb5gztgsxh7lo65wwytiui6a/v.mp4
+
+#EXTINF:-1 tvg-name="Harry Potter y la Orden de Fénix" tvg-logo="http://image.tmdb.org/t/p/w500/z5bL1z1ZOAKBkvbOhVQp6GfBv4u.jpg" group-title="Movies / Adventure / Harry Potter", Harry Potter y la Orden de Fénix
+https://stream-4891-212-105.cdnpvd.co/juohpn5ghiikkfn2mab7qiqjeurb7dsgyz65sqipi3rwohka6thh4tyj2q/v.mp4
+
+#EXTINF:-1 tvg-name="Harry Potter y el Misterio del Príncipe" tvg-logo="http://image.tmdb.org/t/p/w500/nSb3nNiL6pOEDK34T0U6RKTGzlJ.jpg" group-title="Movies / Adventure / Harry Potter", Harry Potter y el Misterio del Príncipe
+https://s25.gamovideo.com:444/fvap5a5kcnnv3h2yugcnvmc2ognf5lap3ooao5zoj24lcww5bpai2b2x44ta/v.mp4
+
+#EXTINF:-1 tvg-name="Harry Potter y las Reliquias de la Muerte Parte 1" tvg-logo="http://image.tmdb.org/t/p/w500/fYyoJ4Yadk0MCBHZPFrgvMDl50o.jpg" group-title="Movies / Adventure / Harry Potter", Harry Potter y las Reliquias de la Muerte Parte 1
+https://s27.gamovideo.com:444/e5ap5bstcjnv3h2yugcnvmcqffwse5252hfv7wkv334sqxahjuovaoq2bzqa/v.mp4
+
+#EXTINF:-1 tvg-name="Harry Potter y las Reliquias de la Muerte Parte 2" tvg-logo="http://image.tmdb.org/t/p/w500/aM1TuUiPtV8OAZyu61CTdy9Ymtk.jpg" group-title="Movies / Adventure / Harry Potter", Harry Potter y las Reliquias de la Muerte Parte 2
+https://s27.gamovideo.com:444/e5ap4d2bcjnv3h2yugc5v52tmav6en7qxdxlkjngf6ofh6haidutgv6utxla/v.mp4
+
+#EXTINF:-1 tvg-name="San Andreas" tvg-logo="http://image.tmdb.org/t/p/w500/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" group-title="Movies / Action", San Andreas
+https://stream-4891-212-105.cdnpvd.co/juohprdrpmikkfn2mdzpynkph4grkqw3io7cyrzyh7q5pex344yq4riuba/v.mp4
+
+#EXTINF:-1 tvg-name="Deadpool" tvg-logo="http://image.tmdb.org/t/p/w500/pcZT1Ouq99dY6J2iGXjMxw16x6o.jpg" group-title="Movies / Action / Deadpool", Deadpool
+https://s33.gamovideo.com:444/evap4emvb5nv3h2yugd53zsim5ugdnyrqkzymgdcpfhv6l3l6jveqob7hd2a/v.mp4
+
+#EXTINF:-1 tvg-name="Deadpool 2" tvg-logo="http://image.tmdb.org/t/p/w500/jx3URmImNMCZuXcfdLM7S5Pivzy.jpg" group-title="Movies / Action / Deadpool", Deadpool 2
+https://s35.gamovideo.com:444/enap5qhvpjnv3h2yufnnx2iootpr554vlfltqlmblnbvfuoxalfsobqp3qkq/v.mp4
+
+#EXTINF:-1 tvg-name="Deadpool y Lobezno" tvg-logo="http://image.tmdb.org/t/p/w500/9TFSqghEHrlBMRR63yTx80Orxva.jpg" group-title="Movies / Action / Deadpool", Deadpool y Lobezno
+https://s30.gamovideo.com:444/ffap4cuebznv3h2yugk53n22ek5puzubcplv6zz4gjdrkq2bwyy64az3owaq/v.mp4
+
+#EXTINF:-1 tvg-name="Lamborghini" tvg-logo="http://image.tmdb.org/t/p/w500/RKgnYLhCNGCUkrhiCRrs40rEHe.jpg" group-title="Movies / Action", Lamborghini
+https://stream-4291-31-166.cdnpvd.co/k4ohpczkgqikkfn2mdg7qiqre2bizunftm7gcow5e44vd7dyeb5twaehza/v.mp4
+
+#EXTINF:-1 tvg-name="Lobezno Inmortal" tvg-logo="http://image.tmdb.org/t/p/w500/emxbSwkuTxZ8arG1YNKlgUjrpGO.jpg" group-title="Movies / Action", Lobezno Inmortal
+https://str13.vtube.network/hls/x5s4vrcaifyki6cgapamrmvjh7s7sgme57dhlks7sounl6kglvoeffpnxlsa/master.m3u8
+
+#EXTINF:-1 tvg-name="X-Men: Días del futuro pasado" tvg-logo="http://image.tmdb.org/t/p/w500/yTVqNNp7hWFrFtzxAo5bdVUBuz0.jpg" group-title="Movies / Action", X-Men: Días del futuro pasado
+https://24q0stgk4bnr.cdn-jupiter.com/hls2/01/03238/hg9yueae5he0_x/master.m3u8?t=-qLRZ-0ApEn4kfsyKn2y4eenjEl8_nN6GsYh2i_GvFE&s=1732277570&e=129600&f=16194363&srv=s2dlpo3gkmhi&i=0.4&sp=500&p1=s2dlpo3gkmhi&p2=s2dlpo3gkmhi&asn=766
+
+#EXTINF:-1 tvg-name="X-Men: Días del futuro pasado" tvg-logo="http://image.tmdb.org/t/p/w500/yTVqNNp7hWFrFtzxAo5bdVUBuz0.jpg" group-title="Movies / Action", X-Men: Días del futuro pasado
+https://24q0stgk4bnr.cdn-jupiter.com/hls2/01/03238/hg9yueae5he0_x/index-v1-a1.m3u8?t=bWTo5UMPXSQZ3vFJgSUbMqz1ZLSE9xfVS_LG2-xm-yY&s=1732264131&e=129600&f=16194363&srv=s2dlpo3gkmhi&i=0.4&sp=500&p1=s2dlpo3gkmhi&p2=s2dlpo3gkmhi&asn=15704
+
+#EXTINF:-1 tvg-name="X-Men: Apocalipsis" tvg-logo="http://image.tmdb.org/t/p/w500/i5ET4lACwrb97sdPzmIThieasOk.jpg" group-title="Movies / Action", X-Men: Apocalipsis
+https://str12.vtube.network/hls/,x5s4322aifyki6cgapamrjvop2bgza2ydar7a7fz4grsnpd2m7z337zlrx5q,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-name="X-Men: Dark Phoenix" tvg-logo="http://image.tmdb.org/t/p/w500/rdByKDkfyVuVSrkllzxKYXiZmTd.jpg" group-title="Movies / Action", X-Men: Dark Phoenix
+https://str13.vtube.network/hls/,x5s4vqkaifyki6cgapamrjnbmi563mntmmrulfitjmaxnivkupxi2b5rsttq,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-id="S.W.A.T 5x01" tvg-name="S.W.A.T 5x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 5x01
+https://stream-4291-31-166.cdnpvd.co/k4ohozclhqikkfn2mbu7qmyxeljafqsqkrcmygd2r5g34hggudntpqa7zu/v.mp4
+
+#EXTINF:-1 tvg-id="S.W.A.T 7x01" tvg-name="S.W.A.T 7x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 7x01
+https://stream-5091-212-113.cdnpvd.co/j4ohp4aqbiikkfn2mdupqia2mqnfa4shinkhgh4m4yhbi76y2frl6hbcna/v.mp4
+
+#EXTINF:-1 tvg-id="S.W.A.T 3x01" tvg-name="S.W.A.T 3x01" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x01
+https://s21.gamovideo.com:444/kfap5za2njnv3h2yuex5v5cpeywh3aibbwvkckxq23kvrefnas7cjzo6mfiq/v.mp4
+
+#EXTINF:-1 tvg-id="S.W.A.T 3x02" tvg-name="S.W.A.T 3x02" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x02
+https://s32.gamovideo.com:444/ezap4h5unjnv3h2yuet5v5sffgyh4yyswz7v7nixp24k6zipjlq7z6mk22za/v.mp4
+
+#EXTINF:-1 tvg-id="S.W.A.T 3x03" tvg-name="S.W.A.T 3x03" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x03
+https://s25.gamovideo.com:444/fvap4l6vnfnv3h2yue75vnstmhh3z4xf5gwotrh63nmnkcto77d6hr6lclbq/v.mp4
+
+#EXTINF:-1 tvg-id="S.W.A.T 4x16" tvg-name="S.W.A.T 4x16" tvg-logo="http://image.tmdb.org/t/p/w500/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg" group-title="S.W.A.T", S.W.A.T 3x03
+https://tp23.gamovideo.com:444/f5ap45zedfnv3h2yueen3525o77r5ztxcgt257kh4gfllgnveqjmr5wkb2ta/v.mp4
+
+#EXTINF:-1 tvg-name="Gladiator" tvg-logo="http://image.tmdb.org/t/p/w500/90QFOG5zSN4cbrIVs4DL4ePAuA5.jpg" group-title="Movies / Action", Gladiator
+https://str12.vtube.network/hls/,x5s47ydnnryki6cgaplmto7qntwejyw6sslegh7a5757vswuid67wvszimia,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-name="Tú la letra, yo la música" tvg-logo="http://image.tmdb.org/t/p/w500/iRmkRnWlcoWaQERNyj9I8COAc5n.jpg" group-title="Movies / Romance", Tú la letra, yo la música
+https://uy4dtz5s9w9p.milocdn.com/hls2/01/00857/osh5w5dtg0v3_h/master.m3u8?t=Vm32bRpjTEpW896f4VeMw5OGWzrv8Ewwr1JcJMExhWQ&s=1734797064&e=129600&f=4287209&srv=iWHz5zpkSLGQy&i=0.4&sp=500&p1=iWHz5zpkSLGQy&p2=iWHz5zpkSLGQy&asn=15704
+
+#EXTINF:-1 tvg-name="Red One" tvg-logo="http://image.tmdb.org/t/p/w500/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg" group-title="Movies / Action", Red One
+https://be7713.rcr82.waw05.cdn255.com/hls2/01/07559/aqbcipade5pw_x/master.m3u8?t=-iCLN5bWFpzaAvWr9TxQDOaZnxw1SldRTelI8FQ2m3Q&s=1734901140&e=10800&f=37796385&srv=09&asn=15704&sp=5500&p=
+
+#EXTINF:-1 tvg-name="Programa de Protección de Princesas" tvg-logo="http://image.tmdb.org/t/p/w500/9Q1xZr9PnhnunaXuHstWtC2jQcc.jpg" group-title="Movies / Disney", Programa de Protección de Princesas
+https://stream-4291-31-166.cdnpvd.co/k4ohpwushqikkfn2mbzpqzquhllttlsigcs64conur5lewwpcn26ulbche/v.mp4
+
+#EXTINF:-1 tvg-name="16 Deseos" tvg-logo="http://image.tmdb.org/t/p/w500/c9crVvtRwPChuNQ0nohNWnlyb6L.jpg" group-title="Movies / Disney", 16 Deseos
+https://s26.gamovideo.com:444/frap5pdma5nv3h2yuel534yeoxyt7r7qq5kydvhhborfgurh4qaqj4gq7fra/v.mp4
+
+#EXTINF:-1 tvg-name="Jungla de Cristal 1" tvg-logo="http://image.tmdb.org/t/p/w500/m54tK4wKjc1w2dp7QInG0munGao.jpg" group-title="Movies / Action", Jungla de Cristal 1
+https://h0zzcaomekv.cdn-centaurus.com/hls2/01/00784/7r8otfihog14_x/index-v1-a1.m3u8?t=S3gXRhA80YY-efjDsLrRzww81mbJApP-yXcANiNluow&s=1735229817&e=129600&f=3920145&srv=vr4pcjm18sa1&i=0.4&sp=500&p1=vr4pcjm18sa1&p2=vr4pcjm18sa1&asn=15704
+
+#EXTINF:-1 tvg-name="Objetivo: Londres" tvg-logo="http://image.tmdb.org/t/p/w500/AgivYpNxC0SqN2u8JY5udZeX3eE.jpg" group-title="Movies / Action", Objetivo:Londres
+https://elss36gx1qtp.cdn-centaurus.com/hls2/01/06315/1o4fmentwnno_h/master.m3u8?t=jWHaxSCgZQN0P481Vbq9Wma4XotJtVf2ui9_nnQ5WWM&s=1740930545&e=129600&f=31577305&srv=n6e8rz9s75lh&i=0.4&sp=500&p1=n6e8rz9s75lh&p2=n6e8rz9s75lh&asn=15704
+
+#EXTINF:-1 tvg-name="Objetivo: Washington D.C" tvg-logo="http://image.tmdb.org/t/p/w500/zC8HSq4xWsPgPDjgmlFix4VMtaD.jpg" group-title="Movies / Action", Objetivo: Washington D.C
+https://2d79wtjn58gx.cdn-centaurus.com/hls2/01/06315/eq5gbj7r6orj_h/master.m3u8?t=2Yzl9DysUEbKt73Y8Io3xMtXj8QYCjnOsMl2XCdeErY&s=1740930461&e=129600&f=31577036&srv=txmraegnjpog&i=0.4&sp=500&p1=txmraegnjpog&p2=txmraegnjpog&asn=15704
+
+#EXTINF:-1 tvg-name="Mufasa: El rey León" tvg-logo="http://image.tmdb.org/t/p/w500/nt4E7hZqKfIJbf8GOxZKCL1ahvG.jpg" group-title="Movies / Disney", Mufasa: El rey León
+https://fs39.bigwarp.io/v/02/00138/jkaqn0bt5tot_x/x.mp4?t=bloTm6IYhieB2MXg0AeGvzcpn_hd2v6uiBQ62eY7uNE&s=1741448272&e=43200&f=694921&sp=1000&i=0.0
+
+#EXTINF:-1 tvg-name="Mufasa: The Lion King" tvg-logo="http://image.tmdb.org/t/p/w500/nt4E7hZqKfIJbf8GOxZKCL1ahvG.jpg" group-title="Movies / Disney", Mufasa: The Lion King
+https://cdn1018.tnmr.org/hls2/03/00945/dxfd7d3hv2gz_h/master.m3u8?t=H-8Eos4xj15pDelXljEUvpPnozTVo0h20GQqtByUHHc&s=1741448578&e=43200&f=4791220&i=0.3&sp=0
+
+#EXTINF:-1 tvg-name="Ella es el chico" tvg-logo="http://image.tmdb.org/t/p/w500/6NIvKonJblEaR6jD1BA6bsY0fXV.jpg" group-title="Movies / Romance", Ella es el chico
+https://stream-4191-31-165.cdnpvd.co/kqohooyyhmikkfn2ma3pqnsmgzvvsshxapjys747pktg7ywe3ftduackva/v.mp4
+
+#EXTINF:-1 tvg-name="Braveheart" tvg-logo="http://image.tmdb.org/t/p/w500/2734rI2tsudJ4XwOep4SEDgl4xB.jpg" group-title="Movies / Not indexed", Braveheart
+https://no6ojcmmspit.milocdn.com/hls2/01/01847/1qmcvjuxmxvu_h/index-v1-a1.m3u8?t=pcZDfNPo2AT79MiYxKWKDha4uM2Sh3oXs1t0tsnGhQ4&s=1745182796&e=129600&f=9239630&srv=nIb6EHVEwAgB&i=0.4&sp=500&p1=nIb6EHVEwAgB&p2=nIb6EHVEwAgB&asn=15704
 
 #EXTINF:-1 tvg-name="El patriota" tvg-logo="http://image.tmdb.org/t/p/w500/cizgIaq65fpq2Ft08dPmZtUxDYv.jpg" group-title="Movies / Not indexed", Braveheart
 https://stream-3891-64-63.cdnpvd.co/lmoho72peeikkfn2md476yahfqqycjk7lg6inv2xwfs7v2hqe2n72gotzm/v.mp4
