@@ -184,3 +184,6 @@ https://str12.vtube.network/hls/,x5s4uh2povyki6cganrmrihqgn45z3l6f63x6hews7xchan
 
 #EXTINF:-1 tvg-name="Outer Banks 2x05" tvg-logo="http://image.tmdb.org/t/p/w500/oNIyXnqSwkjVv2SmkgzTtaCsVBV.jpg" group-title="Series / Adventure", Outer Banks 2x05
 https://be4235.rcr32.ams02.i8yz83pn.com/hls2/05/07037/hze7v9ormi7n_x/master.m3u8?t=JF5sqZU7QqhgEK61mlGLh0rvN2WrbDkpuizgkxmUp5E&s=1752247282&e=10800&f=35186324&srv=1055&asn=15704&sp=5500&p=
+
+#EXTINF:-1 tvg-name="Heretic" tvg-logo="http://image.tmdb.org/t/p/w500/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg" group-title="Movies / Suspense", Heretic
+https://fs71.bigwarp.io/v/02/00344/w4hx9mesctvi_x/x.mp4?t=pLOGB3ZdKJSCkuN70jcfz8sEKNWySnqadzSdPBxXhN8&s=1753135438&e=43200&f=1722645&sp=1000&i=0.0&kmnr=164864061
